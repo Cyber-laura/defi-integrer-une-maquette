@@ -1,0 +1,57 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("Roboto/Roboto-Black.ttf")format("ttf"),
+    url("Roboto/Roboto-BlackItalic.ttf")format("ttf"),
+    url("Roboto/Roboto-Bold.ttf")format("ttf"),
+    url("Roboto/Roboto-BoldItalic.ttf")format("ttf"),
+    url("Roboto/Roboto-Italic.ttf")format("ttf"),
+    url("Roboto/Roboto-Light.ttf")format("ttf"),
+    url("Roboto/Roboto-LightItalic.ttf")format("ttf"),
+    url("Roboto/Roboto-Medium.ttf")format("ttf"),
+    url("Roboto/Roboto-MediumItalic.ttf")format("ttf"),
+    url("Roboto/Roboto-Regular.ttf")format("ttf"),
+    url("Roboto/Roboto-Thin.ttf")format("ttf");
+
+}
+body
+{
+    font-family:Roboto,Arial,sans-serif;
+}
+#bloc_page
+{
+    width: 900px;
+    margin:auto;
+}
+#logo
+{
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+#logo img
+{
+    width: 200px;
+    height:60px;
+}
+header
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav ul 
+{
+    list-style-type:none;
+    display:flex;
+}
+nav li
+{
+    margin-right:15px;
+}
+nav a 
+{
+    font-size:1.3em;
+    padding-bottom:3px;
+    text-decoration:none;
+    color:#181818;
+}
